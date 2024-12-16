@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 23px 100px;
+  padding: 20px 100px;
 }
 
 .div {
@@ -18,7 +18,7 @@
   background: rgba(245, 245, 245, 0.2);
   border: 1px solid rgba(226, 226, 226, 0.2);
   border-radius: 35px;
-  background-image: url("../images//Forget.svg");
+  background-image: url('../images//Forget.svg');
   background-repeat: no-repeat;
   background-position: bottom 50% left 24px;
 }
