@@ -1,30 +1,73 @@
-.responsiveFormContainer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
+.bookingcardMob {
+  width: 100%;
+  height: 81px;
+  background-color: #131313;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  position: sticky;
+  top: 763px;
+  z-index: 10;
+}
+.bcm_text {
+  font-size: 18px;
+  display: flex;
+  padding-left: 16px;
+  justify-content: left;
+  align-items: center;
+}
+.text_price {
+  display: flex;
+  flex-direction: column;
+}
+.text_price h6 {
+  font-size: 16px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.inside_price {
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  text-wrap: nowrap;
+  font-size: 20px;
+}
+.text_price p {
+  font-size: 18px;
 }
 
-.responsiveFormContainer h2 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
+.text_price h5 {
+  font-size: 18px;
 }
-
-.responsiveFormContainer p {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 21px;
-    text-align: left;
-    text-decoration-line: line-through;
-    color: rgba(255, 255, 255, 0.6);
+.bcm_btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 12px 16px 12px 0;
 }
-
+.inside_bcm_btn {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.inside_bcm_btn:hover {
+  color: white;
+}
 @media (min-width: 1024px) {
-    .responsiveFormContainer {
-        display: none;
-    }
+  .bookingcardMob {
+    display: none;
+  }
 }
