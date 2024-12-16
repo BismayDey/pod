@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../images//HeroImage.svg");
+  background-image: url('../images//HeroImage.svg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 762px;
@@ -17,13 +17,21 @@
   position: relative;
   color: rgba(255, 255, 255, 1);
 }
-
+#slv {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: -10px;
+}
+#alm {
+  font-size: 21px;
+  font-weight: 100;
+}
 .smallLogo {
   background-color: black;
   height: 37px;
   width: 124px;
   border-radius: 4px;
-  background-image: url("../images//Logo.svg");
+  background-image: url('../images//Logo.svg');
   background-size: 84px 19.52px;
   background-repeat: no-repeat;
   background-position: center;
