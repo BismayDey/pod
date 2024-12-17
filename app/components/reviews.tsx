@@ -1,18 +1,17 @@
-import styles from "../styles/reviews.module.css";
-import Image from "next/image";
-import star from "../images/star 1.svg";
-import share from "../images/Share.svg";
-import heart from "../images/Heart.svg";
+import styles from '../styles/reviews.module.css';
+import Image from 'next/image';
+import star from '../images/star 1.svg';
+import share from '../images/Share.svg';
+import heart from '../images/Heart.svg';
 
 export const Reviews = () => {
   return (
     <div className={styles.reviewContainer}>
       <div className={styles.ratingContainer}>
         <div>
-          <Image src={star} alt="Yellow star" />
+          <Image src={star} alt='Yellow star' />
           <p className={styles.ratingText}>
-            4.5
-            <span>/ 5</span>
+            4.5 /<span> 5</span>
           </p>
         </div>
         <span>|</span>
@@ -20,10 +19,10 @@ export const Reviews = () => {
       </div>
       <div className={styles.iconsDiv}>
         <div className={styles.icon}>
-          <Image src={share} alt="Share icon" />
+          <Image src={share} alt='Share icon' />
         </div>
         <div className={styles.icon}>
-          <Image src={heart} alt="Heart icon" />
+          <Image src={heart} alt='Heart icon' />
         </div>
       </div>
     </div>

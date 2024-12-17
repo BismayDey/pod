@@ -1,15 +1,21 @@
 .card {
-    background-color: rgba(255, 255, 255, 0.08);
-    padding: 20px;
-    border-radius: 10px;
-    color: rgba(204, 204, 204, 1);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+  color: rgba(204, 204, 204, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .card p {
-    display: flex;
-    gap: 5px;
-    align-items: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .card {
+    transform: scale(0.6);
+    margin: -25px -90px -20px -20px;
+  }
 }
