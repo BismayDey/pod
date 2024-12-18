@@ -5,6 +5,7 @@
   height: 762px;
   margin-top: 0px;
   position: relative;
+  background-position: center;
 }
 
 .title {
@@ -41,7 +42,8 @@
 .menu {
   position: absolute;
   bottom: 18px;
-  right: 640px;
+  left: 50%;
+  translate: -50%;
 }
 
 .detail {
@@ -71,5 +73,28 @@
 @media (max-width: 700px) {
   .menu {
     right: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    left: -5px;
+    top: 100px;
+    transform: scale(0.7);
+  }
+  #slv {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .hero {
+    height: 324px;
+  }
+  .menu {
+    transform: scale(0.7);
+    bottom: -15px;
+  }
+  .detail {
+    transform: scale(1.07);
+    right: 13px;
+    bottom: -11px;
   }
 }

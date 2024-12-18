@@ -22,3 +22,16 @@
   text-wrap: wrap;
   color: rgba(136, 136, 136, 1);
 }
+@media (max-width: 500px) {
+  .cardContainer {
+    width: 230px;
+    height: 295px;
+    margin: 55px -30px 50px 42px;
+  }
+  .cardContainer ul {
+    width: 230px;
+    font-size: 10px;
+    gap: 0;
+    padding-top: 10px;
+  }
+}
